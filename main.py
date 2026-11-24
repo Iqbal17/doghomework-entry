@@ -70,21 +70,61 @@ E3 (81): "You left it on the floor. On the floor! That is where
       activity, is the punch.
     Verdict: E1 stands. No word is wasted; the repetition is the joke.
 
-FINAL ENTRY (77 characters):
+DECISION RECORD — REVISION PASS (fixing thinking_revised: three
+alternative revisions weighed against the brief):
+
+R1 (65): "You left it on the floor. On the floor. That is the dinner
+    table."
+    - For: the punch now lands on the redefined object itself, "the
+      dinner table", and the line is 12 characters tighter.
+    - Against: cutting "in my house" drops the dog's territorial
+      claim — the "my house, my rules" voice that makes the excuse
+      sound like a dog rather than a riddle. Weaker on criterion 3.
+
+R2 (78): "You left it on the floor. On the floor. In my house, that
+    is the dinner table."
+    - For: keeps the territory claim and still lands the punch on "the
+      dinner table" by moving the redefinition to the last words.
+    - Against: it is only a reorder — same joke, same single laugh,
+      no new payoff. A revision that adds nothing is barely a revision.
+
+R3 (95) — CHOSEN: "You left it on the floor. On the floor. That is
+    the dinner table in my house. It was delicious."
+    - For: keeps everything the original had — the setup, the
+      restatement beat, the redefinition, the territory claim — and
+      adds a second, deadpan payoff: "It was delicious." Food is the
+      dog's top priority, so the kicker is pure dog logic, and the
+      line now ends on a dog-priority word rather than a claim. Four
+      short sentences give it a staccato dog voice, and the dog owns
+      the crime with zero embarrassment, which is exactly criterion 3.
+    - Against: 18 characters longer, but 95 is far inside the 200
+      gate, and the extra words buy a whole second laugh.
+
+R4 (74): "You left it on the floor. The floor. That is the dinner
+    table in my house."
+    - For: tighter by one word; "The floor." is still a restatement.
+    - Against: dropping "On" weakens the beat — "On the floor." is
+      the dog repeating the human's own words back at them, while
+      "The floor." is just a noun. The saving is one word; the loss
+      is the joke's delivery.
+    Verdict: R3 wins. It is the only revision that adds a laugh
+    instead of shuffling or trimming the one already there.
+
+FINAL ENTRY (95 characters):
 "You left it on the floor. On the floor. That is the dinner table in
-my house."
+my house. It was delicious."
 
 Hand count, two ways: per segment — "You left it on the floor." = 25,
 " On the floor." = 14 (total 39), " That is the dinner table in my
-house." = 38 (total 77). Cross-check: 61 non-space characters +
-16 spaces = 77.
+house." = 38 (total 77), " It was delicious." = 18 (total 95).
+Cross-check: 76 non-space characters + 19 spaces = 95.
 """
 
 import os
 
 ENTRY = (
     "You left it on the floor. On the floor. That is the dinner "
-    "table in my house."
+    "table in my house. It was delicious."
 )
 
 
